@@ -13,7 +13,7 @@ const PostCreate = () => {
   return (
     <div>
       <form onSubmit={handleSubmit}>
-        <div className="form-group">
+        <div className="form-group mb-4 mt-4">
           <label>Title</label>
           <input
             className="form-control"

@@ -10,7 +10,7 @@ app.use(
     extended: true,
   })
 );
-app.use(cors);
+app.use(cors());
 
 const PORT = process.env.PORT || 4000;
 
